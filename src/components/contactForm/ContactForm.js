@@ -23,9 +23,7 @@ export const ContactForm = ({
       <input type="email" id="email" name="email" value={email} required placeholder="Contact Email" aria-label="Contact Email" onChange={(e) => setEmail(e.target.value)} />
       </label>
       <br />
-      <label>
       <input type="submit" value="Add Contact" aria-label="Add Contact" />
-      </label>
     </form>
   );
 };
